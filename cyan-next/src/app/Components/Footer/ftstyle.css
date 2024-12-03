@@ -1,0 +1,112 @@
+.footer {
+    background-image: url("../../../../public/section-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; /* Keeps alignment consistent on larger screens */
+    padding: 20px 50px;
+    flex-wrap: wrap; /* Enables wrapping for smaller screens */
+}
+
+.footer-container1, .footer-container-2, .footer-container-3, .footer-container-4 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 22%; /* Flex basis for equal widths on all containers */
+    max-width: 25%; /* Prevents containers from expanding too much */
+    min-width: 200px; /* Sets a minimum width for better responsiveness */
+    gap: 20px;
+    text-align: center;
+}
+
+.footer-ul p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+    margin: 0;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download img {
+    border: 1px solid white;
+    width: 80%;
+    height: auto; /* Ensures aspect ratio is maintained */
+    margin-top: 10px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    padding: 20px;
+}
+
+.right-copy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.right-copy *:hover {
+    color: cyan;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Stacks containers vertically */
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .footer-container1, .footer-container-2, .footer-container-3, .footer-container-4 {
+        width: 100%;
+        margin-bottom: 20px; /* Adds space between stacked containers */
+    }
+    
+    .iner-footer-logo {
+        justify-content: center;
+    }
+    
+    .footer-hr hr {
+        width: 70px;
+        margin: auto;
+    }
+}
+
+/* Extra Small Screen Adjustments */
+@media (max-width: 480px) {
+    .right-copy {
+        flex-direction: column; /* Stacks items vertically */
+        gap: 20px;
+        align-items: center; /* Centers items */
+    }
+}
+
+.iner-footer-logo {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-ul p {
+    transition: color 0.3s ease;
+}
+
+.footer-ul p:hover {
+    color: cyan;
+    cursor: pointer;
+}

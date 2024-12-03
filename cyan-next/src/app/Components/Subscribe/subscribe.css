@@ -1,0 +1,74 @@
+.outer-sbc {
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 120px; 
+}
+.subsc h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+.subsc p{
+    padding-bottom: 10px;
+}
+
+.subsc {
+    background-color: #192237;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px;
+    text-align: center; /* Center text */
+}
+
+.input-subscribe {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px; 
+    margin-top: 20px;
+}
+
+.input-subscribe input {
+    flex: 1;
+    outline: 1px solid whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    background-color: #192237;
+}
+
+.input-subscribe button {
+    padding: 10px;
+    border: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .outer-sbc {
+        width: 90%;
+    }
+    .subsc {
+        padding: 30px; 
+    }
+    .input-subscribe {
+        flex-direction: column;
+    }
+    .input-subscribe input,
+    .input-subscribe button {
+        border-radius: 5px;
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+}

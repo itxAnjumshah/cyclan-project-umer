@@ -1,0 +1,48 @@
+.latest-parnet {
+  padding: 5%;
+}
+
+.latest-top {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.latest-bottom {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; 
+}
+
+.latest-bottom-part {
+  display: flex;
+  flex-direction: column;
+  
+  max-width: 590px; 
+ 
+}
+
+.iner-child-p {
+  display: flex;
+  align-items: center;
+  color: cyan;
+}
+
+.latest-bottom-part img {
+  max-width: 100%;
+  height: auto;   
+
+}
+.design-p{
+  padding-top:10px ;
+  background: linear-gradient(90deg, #4aa5f0, #ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

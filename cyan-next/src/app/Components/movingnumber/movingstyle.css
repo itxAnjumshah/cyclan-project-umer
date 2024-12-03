@@ -1,0 +1,46 @@
+.moving {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    gap: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 107%;
+
+}
+
+
+.mov-in {
+    width: 450px;
+    height: 200px;
+    background-color: #1a2237;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mov-in h1 {
+    font-weight: 700;
+    font-size: 50px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+.mov-in p {
+    color: #fff;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+    .moving {
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 999;
+    }
+    
+}

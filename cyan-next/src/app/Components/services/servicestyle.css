@@ -1,0 +1,83 @@
+.service-top {
+    padding: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.service-top-child h1 {
+    font-size: 50px;
+   
+}
+
+
+.service-top-child2 > button {
+    padding: 4px 33px;
+    background-color: transparent;
+    color: cyan;
+    display: flex;
+    align-items: center;
+    border: 1px solid cyan;
+    cursor: pointer;
+}
+
+.service-top-child2 button:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.service-bottom {
+    color: #fff;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+}
+
+.service-bottom-child {
+    width: 30%;
+    max-width: 300px;
+}
+
+.service-bottom-child h4 {
+    color: cyan;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .service-top-child h1 {
+        font-size: 36px;
+    }
+
+    .service-bottom-child {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .service-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-top-child h1 {
+        font-size: 28px;
+    }
+
+    .service-bottom-child {
+        width: 100%;
+    }
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-text-parent {
+    background-image: url(../../../../public/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+    padding-left: 5%;
+   
+}
+
+.innertext {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width:50%;
+}
+
+.innertext h1 {
+    font-size: 3.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.innertext p {
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-hero {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn.left {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.inner-right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inner-right span {
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+.play-icon{
+    background-color: aqua;
+    border-radius: 100%;
+    overflow: hidden;
+    
+
+}
+.play-icon:hover{
+    background-color: transparent;
+    border: 1px cyan;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .innertext h1 {
+        font-size: 2em;
+    }
+
+    .innertext p {
+        font-size: 1em;
+    }
+
+    .btn.left {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    .outer-text-parent {
+        align-items: center;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .innertext {
+        align-items: center;
+    }
+}

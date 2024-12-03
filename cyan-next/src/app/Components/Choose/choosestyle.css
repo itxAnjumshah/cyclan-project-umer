@@ -1,0 +1,128 @@
+.choose-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: #fff;
+    background-image: url(../../../../public/section-2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .choose-left {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .teambtn {
+    background-color: #1c747e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .choose-left h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .choose-left p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .choose-num {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .num-iner {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .num-iner h1{
+     
+    font-size: 50px;
+     font-weight: 500;
+     -webkit-text-stroke: 1px #fff;
+    color: transparent;
+  }
+  
+  .num-iner h1:hover{
+    background: linear-gradient(90deg, #ff0080, #ff8c00);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0px;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  .num-iner p {
+    font-size: 14px;
+  }
+  
+  .choose-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .choose-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .choose-parent {
+      flex-direction: column;
+    }
+  
+    .choose-left {
+      max-width: 100%;
+    }
+  
+    .choose-right {
+      max-width: 100%;
+      margin-top: 30px;
+    }
+  
+    .choose-num {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .num-iner {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .choose-left h1 {
+      padding: 10px;
+      font-size: 24px;
+    }
+  
+    .choose-left p {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .teambtn {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  }
+  

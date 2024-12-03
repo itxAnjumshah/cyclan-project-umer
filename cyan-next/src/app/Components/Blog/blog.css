@@ -1,0 +1,40 @@
+.blog {
+    max-width: 100%;
+    margin: auto;
+    margin: 5%;
+
+}
+
+.blog-top {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.outer-bottom-blog {
+    width: 90.30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+
+
+}
+
+.security {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue-p {
+    color: #5595BD;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}

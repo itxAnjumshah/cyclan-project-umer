@@ -1,0 +1,18 @@
+.design {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: auto;
+    width: 80%;
+    background-color: #192237;
+    height: 110px;
+    padding: 10px 20px;
+    margin-top: 130px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-radius: 20px;
+}
+

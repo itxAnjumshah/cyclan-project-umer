@@ -1,0 +1,148 @@
+.teammember {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    color: #fff;
+    padding: 10%; 
+    flex-wrap: wrap;.teammember {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+      color: #fff;
+      padding: 10%; 
+      flex-wrap: wrap;
+      padding-top: 20%; 
+  }
+  
+  .teammember-left {
+      flex: 1;
+      width: 55%;
+      padding-right: 2rem; 
+  }
+  
+  .teammember-left h1 {
+      font-size: 50px;
+  }
+  
+  .teammember-left p {
+      padding-top: 10px;
+      padding-bottom: 30px;
+  }
+  
+  .team-right {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 40px;
+      max-width: 55%;
+  }
+  
+  .iner-right-team {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .iner-right-team img {
+      border-radius: 9px;
+      overflow: hidden;
+      
+  }
+  
+  .teambtn {
+      background-color: #1c747e;
+      padding: 10px 20px;
+      border-radius: 50px;
+      color: #fff;
+      border: none;
+      margin-bottom: 20px; 
+  }
+  
+  .btn {
+      background-color: #1c747e;
+      padding: 8px 18px;
+      border-radius: 50px;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+      .teammember-left, .team-right {
+          max-width: 100%; 
+          text-align: center; 
+      }
+  
+      .team-right {
+          justify-content: center; 
+      }
+  }
+  
+    padding-top: 20%; 
+  }
+ 
+  .teammember-left {
+
+    flex: 1;
+    width: 55%;
+    padding-right: 2rem; 
+    
+  }
+  .teammember-left h1{
+    font-size: 50px;
+  }
+ .teammember-left p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+ }
+  
+  .team-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 55%;
+  }
+  
+  .iner-right-team {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .iner-right-team img{
+    border-radius: 9px;
+   
+  }
+  
+  .teambtn {
+    background-color: #1c747e;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px; 
+  }
+  
+  .btn {
+    background-color: #1c747e;
+    padding: 8px 18px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .teammember-left, .team-right {
+      max-width: 100%; 
+      text-align: center; 
+    }
+  
+    .team-right {
+      justify-content: center; 
+    }
+  }
+  

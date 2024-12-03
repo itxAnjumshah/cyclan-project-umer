@@ -1,0 +1,130 @@
+.parent-pricing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    padding-top: 190px;
+}
+
+.top-pricing h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.top-pricing button {
+    display: flex;
+    margin: auto;
+}
+
+.btn-pricing {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: #fff;
+    background-image: linear-gradient(to right, #0196e7, #ff00a4);
+    background-size: 200% 100%;
+    background-position: left center;
+    transition: background-position 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-pricing:hover {
+    background-position: right center;
+}
+
+.bottom-pricing-parent {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+.bottom-child {
+    background-color: #0196e7;
+    height: 450px;
+    width: 240px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-child h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bottom-child p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.bottom-child h1 {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .parent-pricing {
+        padding-top: 100px; 
+    }
+
+    .top-pricing h1 {
+        font-size: 40px; 
+    }
+
+    .bottom-pricing-parent {
+        gap: 20px;
+    }
+
+    .bottom-child {
+        width: 100%; 
+        height: auto; 
+        margin-top: 20px; 
+    }
+
+    .bottom-child h4 {
+        font-size: 20px; 
+    }
+
+    .bottom-child h1 {
+        font-size: 28px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .parent-pricing {
+        padding-top: 70px; 
+    }
+
+    .top-pricing h1 {
+        font-size: 30px; 
+    }
+
+    .btn-pricing {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+
+    .bottom-pricing-parent {
+        gap: 10px;
+    }
+
+    .bottom-child {
+        width: 100%;
+        padding: 15px; 
+    }
+
+    .bottom-child h4 {
+        font-size: 18px; 
+    }
+
+    .bottom-child h1 {
+        font-size: 24px; 
+    }
+}

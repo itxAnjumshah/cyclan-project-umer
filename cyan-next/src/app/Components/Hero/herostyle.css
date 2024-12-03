@@ -1,0 +1,76 @@
+.hero-parent {
+    background-image: url('../../../../public/bg-home2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.hero-left, .hero-right {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.hero-left h1 {
+    font-size: 40px;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-left-btn {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, rgba(14, 169, 241, 0.964), rgb(242, 10, 173));
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cyan-button {
+    border: 1px solid cyan;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hero-parent {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-left, .hero-right {
+        width: 100%;
+    }
+
+    .hero-left h1 {
+        font-size: 30px;
+    }
+
+    .hero-btn {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero-left-btn, .cyan-button {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+}
