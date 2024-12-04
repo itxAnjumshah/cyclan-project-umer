@@ -59,8 +59,8 @@ const Navbar = () => {
           Blog
           <div className="dropdown-content">
             <Link href="Blogpage">Blog </Link>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <Link href="Blogdetail02">blog details</Link>
+            
           </div>
         </li>
 
