@@ -1,0 +1,70 @@
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 120px;
+  flex-direction: row;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.company-left,
+.company-right {
+  max-width: 40%;
+}
+
+.company-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-right h1 {
+  padding-bottom: 2rem;
+}
+
+.company-right-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.company-inner h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.company-inner {
+  background-color: #192237;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .company {
+      flex-direction: column;
+      padding: 5%;
+  }
+
+  .company-left,
+  .company-right {
+      max-width: 100%;
+  }
+
+  .company-right {
+      padding: 5%;
+  }
+
+  .company-inner {
+      padding: 1.2rem;
+  }
+  .company-img{
+    width: 100%;
+    height: auto;
+
+
+  }
+}
