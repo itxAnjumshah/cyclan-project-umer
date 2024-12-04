@@ -49,16 +49,16 @@ const Navbar = () => {
         <li className="dropdown">
           Pages
           <div className="dropdown-content">
-            <a href="#">Link 1</a>
+            <Link href="pages01">Projects</Link>
             <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <Link href="pages02">Pricing</Link>
           </div>
         </li>
 
         <li className="dropdown">
           Blog
           <div className="dropdown-content">
-            <a href="#">Link 1</a>
+            <Link href="Blogpage">Blog </Link>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
