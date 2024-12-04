@@ -4,11 +4,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-
+    justify-content: center;
 }
 .topabout span{
 color: aqua;
