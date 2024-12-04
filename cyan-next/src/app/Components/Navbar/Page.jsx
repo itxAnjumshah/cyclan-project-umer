@@ -40,9 +40,9 @@ const Navbar = () => {
         <li className="dropdown">
           Service
           <div className="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <Link href="Services-01">Service</Link>
+            <Link href="ServiceDetails">Service Details</Link>
+           
           </div>
         </li>
 
