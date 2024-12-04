@@ -1,0 +1,43 @@
+.starhero3 {
+    background-image: url("../../../../public/star-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.star-left, .star-right {
+    width: 40%;
+}
+
+.star-right img {
+    width: 100%;
+    height: auto;
+}
+
+.star-left h1 {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .starhero3 {
+        flex-direction: column-reverse;
+        height: auto; 
+        align-items: center;
+        justify-content: center;
+        gap: 20px; 
+    }
+
+    .star-left, .star-right {
+        width: 90%; 
+    }
+
+    .star-left h1 {
+        font-size: 40px; 
+    }
+}

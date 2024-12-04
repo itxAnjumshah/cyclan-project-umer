@@ -37,7 +37,7 @@ export default function Choose() {
         </div>
 
 <div className="choose-right">
-  <Image alt="imge" src="/computer.png"  height={500} width={ 590} layout="responsive" />
+  <Image alt="imge" src="/computer.png"  height={100} width={ 100} layout="responsive" />
 </div>
 
       </div>

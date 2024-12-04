@@ -2,9 +2,9 @@
     max-width: 100%;
     margin: auto;
     margin: 5%;
-
 }
 
+/* Top section styling */
 .blog-top {
     align-items: center;
     display: flex;
@@ -23,18 +23,59 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-
-
-
 }
 
 .security {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .blue-p {
     color: #5595BD;
     font-size: 1.2rem;
     margin: 10px 0;
+}
+.detail{
+    color: cyan;
+}
+
+/* Responsive styling */
+@media (max-width: 1024px) {
+    .blog-top {
+        width: 50%; /* Medium screens ke liye adjust */
+    }
+
+    .outer-bottom-blog {
+        flex-wrap: wrap; /* Items ko wrap karne ka option medium screens ke liye */
+        gap: 30px; /* Gap reduce */
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-top {
+        width: 70%; /* Mobile screens ke liye adjust */
+        padding: 15px; /* Padding kam ki */
+    }
+
+    .outer-bottom-blog {
+        width: 100%;
+        flex-direction: column; /* Mobile ke liye vertical layout */
+        gap: 20px;
+    }
+
+    .security {
+        flex-direction: column; /* Mobile par vertically arrange */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-top {
+        width: 90%; /* Small screens ke liye maximum width */
+    }
+
+    .blue-p {
+        font-size: 1rem; /* Text size chhota kiya */
+    }
 }

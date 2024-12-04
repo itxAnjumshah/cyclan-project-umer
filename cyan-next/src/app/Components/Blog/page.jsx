@@ -20,7 +20,7 @@ export default function Blog() {
                 <p>February 15, 2024</p>
               </div>
               <h3>How can you improvement to your business policy for the better product.</h3>
-              <button>View Details</button>
+              <p className='detail' >View Details</p>
             </div>
             <div className="blog-bottom">
               <Image src="/blog2.jpg" alt="blog" width={100} height={100} layout="responsive" />
@@ -29,7 +29,7 @@ export default function Blog() {
                 <p>February 15, 2024</p>
               </div>
               <h3>How can you improvement to your business policy for the better product.</h3>
-              <button>View Details</button>
+              <p className='detail' >View Details</p>
             </div>
             <div className="blog-bottom">
               <Image src="/blog3.jpg" alt="blog" width={100} height={100} layout="responsive" />
@@ -38,7 +38,7 @@ export default function Blog() {
                 <p>February 15, 2024</p>
               </div>
               <h3>How can you improvement to your business policy for the better product.</h3>
-              <button>View Details</button>
+              <p className='detail' >View Details</p>
             </div>
           </div>
         
