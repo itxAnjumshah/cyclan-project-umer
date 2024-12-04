@@ -9,10 +9,12 @@ export default function Starhero() {
 <div className="starhero3">
     <div className="star-left">
         <h1>We're Providing The Best Cyber Solutions For Your Security.</h1>
-<div className="star-btn">
-    <button>Get your  Services</button>
-    <button>Contanct  with  us</button>
-</div>
+        <div className="hero-btn">
+            <button className="hero-left-btn">Get your services</button>
+            <button className="cyan-button">
+              Contact with us <span><Image src="/6941884.png" alt="arrow" width={32} height={32} /></span>
+            </button>
+          </div>
 
     </div>
     
