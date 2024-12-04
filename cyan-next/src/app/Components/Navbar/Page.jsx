@@ -31,14 +31,14 @@ const Navbar = () => {
         <li className="dropdown">
           About
           <div className="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <Link href="About1">About 01</Link>
+            <Link href="About2">About 02</Link>
+            
           </div>
         </li>
 
         <li className="dropdown">
-          Services
+          Service
           <div className="dropdown-content">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
