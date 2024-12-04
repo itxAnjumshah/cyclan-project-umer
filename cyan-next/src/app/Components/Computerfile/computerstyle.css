@@ -2,10 +2,34 @@
     background-color: #4AA5F0;
     max-width: 90%;
     display: flex;
+    flex-wrap: wrap; 
     margin: auto;
-    gap: 50px;
-    padding: 10px 20px;
+    gap: 30px; 
+    padding: 20px;
     border-radius: 8px;
     color: #192037;
+    justify-content: space-between; 
+}
 
+.computer-child {
+    width: 30%;
+    flex: 1 1 calc(30% - 20px); 
+    box-sizing: border-box; 
+}
+
+.computer-child p {
+    padding-left: 25px;
+    font-weight: 400;
+}
+
+@media (max-width: 667px) {
+    .computer {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px;
+    }
+
+    .computer-child {
+        width: 100%; 
+    }
 }
