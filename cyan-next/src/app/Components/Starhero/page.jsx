@@ -1,6 +1,6 @@
 import Image from 'next/image'
-
 import "./star.css";
+import "../Hero/herostyle.css";
 
 
 export default function Starhero() {
