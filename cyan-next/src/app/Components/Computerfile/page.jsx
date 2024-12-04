@@ -9,7 +9,7 @@ export default function Computerfile() {
       <div className="computer">
         <div className="computer-child">
           <h3>
-            <Image src="/check2.png"   alt="check2"  width={45} height={45}/>
+            <Image src="/check2.png"   alt="check2"   width={25} height={25}/>
             <span>Computer Security</span>
           </h3>
           <p>
@@ -19,8 +19,8 @@ export default function Computerfile() {
         </div>
         <div className="computer-child">
           <h3>
-            <Image src="/check2.png"   alt="check2"  width={45} height={45}/>
-            <span>Computer Security</span>
+            <Image src="/check2.png"   alt="check2"  width={25} height={25} />
+            <span>File Duplication & Access</span>
           </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque porro
@@ -29,8 +29,8 @@ export default function Computerfile() {
         </div>
         <div className="computer-child">
           <h3>
-            <Image src="/check2.png"   alt="check2"  width={45} height={45}/>
-            <span>Computer Security</span>
+            <Image src="/check2.png"   alt="check2"  width={25} height={25}/>
+            <span> Network Protections</span>
           </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque porro

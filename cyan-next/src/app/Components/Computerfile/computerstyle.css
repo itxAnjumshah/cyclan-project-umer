@@ -1,8 +1,11 @@
-.computer{
-    background-color:#4AA5F0;
-    max-width: 80%;
+.computer {
+    background-color: #4AA5F0;
+    max-width: 90%;
     display: flex;
-    align-items: center;
     margin: auto;
+    gap: 50px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #192037;
 
 }

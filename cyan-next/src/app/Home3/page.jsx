@@ -6,12 +6,13 @@ import Teammember from '../Components/Teammember/page'
 import Blog from '../Components/Blog/page'
 import Starhero from '../Components/Starhero/page'
 import Reviews from '../Components/Reviews/page'
+import Computerfile from '../Components/Computerfile/page'
 
 export default function page() {
   return (
     <>
     <Starhero/>
-    
+    <Computerfile/>
     
     
     <Pricing/>
